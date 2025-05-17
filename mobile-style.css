@@ -1,0 +1,195 @@
+@media screen and (max-width: 750px) {
+    .flex:not(header){
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+    h1{
+        font-size: 30px;
+    }
+    hr{
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    section{
+        margin-bottom: 50px;
+    }
+
+    /* HEADER SECTION */
+    img.logo{
+        width: 80px;
+        height: 80px;
+    }
+    header h1{
+        font-size: 15px;
+        margin-top: 35px;
+    }
+    img#ham{
+        display: inline;
+        width: 40px;
+        height: 40px;
+        margin-top: 25px;
+    }
+    nav#desktopNav{
+        display: none;
+    }
+
+
+    /* MAIN SECTION */
+    main{
+        padding: 40px;
+    }
+    main h1:first-child{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    video{
+        height: 400px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    /* DISTINCTLY GEEGSTACK SECTION */
+    section#distinct div:first-child, section#arib div:first-child{
+        padding-top: 0px;
+        width: 100%;
+    }
+    section#distinct div:first-child h1, section#arib div:first-child h1{
+        font-size: 50px;
+    }
+    section#distinct div:last-child, section#arib div:last-child{
+        width: 100%;
+    }
+
+
+    /* FULL SCREEN IMAGES */
+    .full-screen-image{
+        height: 200px;
+    }
+
+
+    /* ARIB SECTION */
+    img.arib-img{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+
+    /* AWARDS SECTION */
+    section#awards h1:first-child{
+        color: aquamarine;
+        font-size: 40px;
+    }
+    section#awards div.flex div{
+        width: 100%;
+    }
+    section#awards img{
+        width: 100%;
+        margin-bottom: 0px;
+        border-radius: 20px;
+    }
+    section#awards h2{
+        margin-bottom: 50px;
+    }
+
+    /* CREATIVE SECTION */
+    section#creative div:first-child{
+        width: 100%;
+    }
+    section#creative img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    section#creative div:last-child h1{
+        font-size: 40px;
+        color: aquamarine
+    }
+    section#creative div:last-child{
+        width: 100%;
+    }
+
+    iframe{
+        height: 250px;
+    }
+
+    /* FOOTER */
+    footer{
+        background: linear-gradient(to top left, #00473E, #994FFF);
+        padding: 10px;
+        padding-top: 30px;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+    }
+    footer div.left {
+        width: 100%;
+        /* padding-left: 50px; */
+        display: flex;
+    }
+    footer div.left div{
+        width: 2px;
+        background-color: peru;
+        height: 80px;
+        margin: 0.1px 40px;
+    }
+    footer div.left span{
+        margin-top: 30px;
+        font-size: 19px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 5;
+        color: aquamarine;
+    }
+    footer div.right{
+        width: 100%;
+        text-align: center;
+    }
+    footer div.right form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    form h1{
+        margin-bottom: 20px;
+    }
+    input{
+        transition: width 3s;
+        width: 250px;
+        border-radius: 25px;
+        padding: 15px;
+        margin-bottom: 20px;
+        color:  #994FFF;
+        outline: none;
+        border: 1px solid aquamarine;
+        background: transparent;
+
+    }
+    input::placeholder{
+        font-size: 13px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        color:  #994FFF;
+    }
+    input:hover{
+        width: 300px;
+    }
+    button{
+        transition: width 3s;
+        width: 100px;
+        padding: 10px;
+        color: aquamarine;
+        border-radius: 20px;
+        outline: none;
+        background: none;
+        border: 1px solid aqua;
+    }
+    button:hover{
+        width: 150px
+    }
+    footer p{
+        text-align: center;
+    }
+    .geeg{
+        display: none;
+    }
+
+}

@@ -1,0 +1,252 @@
+/* GENERAL */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:  #994FFF;
+    color:  #F4E9CD;
+}
+button{
+    transition: width 3s;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+    width: 150px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: aquamarine
+}
+h1{
+    font-size: 60px;
+}
+hr{
+    margin-bottom: 30px;
+    width: 50%;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+section{
+    margin-bottom: 100px;
+}
+
+/* HEADER SECTION */
+header{
+    background: linear-gradient(to right, #00473E,  #994FFF);
+    z-index: 2;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+img.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+nav#desktopNav{
+    margin-top: 40px;
+}
+nav#desktopNav ul{
+    list-style-type: none;
+}
+nav#desktopNav ul li {
+    margin-right: 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+nav#desktopNav ul li a:hover{
+    color: peru;
+    background-color: #00473E;
+    padding: 10px;
+    border-radius: 30px;
+}
+img#ham{
+    display: none;
+}
+
+/* MAIN SECTION */
+main{
+    padding: 60px;
+}
+main h1:first-child{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+video{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/* DISTINCTLY GEEGSTACK SECTION */
+section#distinct div:first-child, section#arib div:first-child{
+    padding-top: 70px;
+    width: 40%;
+    color: aquamarine
+}
+section#distinct div:first-child h1, section#arib div:first-child h1{
+    font-size: 40px;
+}
+section#distinct div:last-child, section#arib div:last-child{
+    width: 50%;
+}
+
+
+/* FULL SCREEN IMAGES */
+.full-screen-image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* ARIB SECTION */
+img.arib-img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+section#arib p{
+    text-align: center;
+}
+
+
+/* AWARDS SECTION */
+section#awards h1{
+    color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section#awards div.flex div{
+    width: 25%;
+    text-align: center;
+}
+section#awards img{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/* CREATIVE SECTION */
+section#creative div:first-child{
+    width: 50%;
+}
+section#creative img{
+    width: 100%;
+    border-radius: 20px;
+}
+section#creative div:last-child h1{
+    font-size: 40px;
+    color: aquamarine;
+}
+section#creative div:last-child{
+    width: 40%;
+    text-align: center;
+}
+
+
+/* H3 SECTION */
+h3{
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer{
+    background: linear-gradient(to top left, #00473E, #994FFF);
+    padding: 10px;
+    padding-top: 250px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.geeg{
+    text-align: center;
+    transform: translateY(-150px);
+    color: aquamarine;
+    font-size: 50px;
+}
+footer div.left {
+    width: 50%;
+    /* padding-left: 50px; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+footer div.left div{
+    width: 2px;
+    background-color: peru;
+    height: 80px;
+    margin: 0.1px 50px;
+}
+footer div.left span{
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: aquamarine;
+}
+footer div.right{
+    width: 50%;
+    text-align: center;
+}
+footer div.right form{
+    width: 100%;
+}
+form h1{
+    margin-bottom: 20px;
+}
+input{
+    transition: width 3s;
+    width: 250px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-bottom: 20px;
+    color:  #994FFF;
+    outline: none;
+    border: 1px solid aquamarine;
+    background: transparent;
+
+}
+input::placeholder{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color:  #994FFF;
+}
+input:hover{
+    width: 300px;
+}
+button{
+    transition: width 3s;
+    width: 100px;
+    padding: 10px;
+    color: aquamarine;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    border: 1px solid aqua;
+}
+button:hover{
+    width: 150px
+}
+footer p{
+    text-align: center;
+}
